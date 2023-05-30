@@ -123,42 +123,44 @@
          obj.arc(875, 100, 5, 0, Math.PI*2) 
          obj.fillStyle = '#F6FACB'
          obj.fill()
+
+         obj.beginPath()
+         obj.arc(650, 470, 5, 0, Math.PI*2) 
+         obj.fillStyle = '#F6FACB'
+         obj.fill()
     
+         obj.beginPath()
+         obj.arc(450, 470, 5, 0, Math.PI*2) 
+         obj.fillStyle = '#F6FACB'
+         obj.fill()
 
         //Árvores
         obj.beginPath()
         obj.moveTo (50, 650)
         obj.lineTo (50, 300)
         obj.strokeStyle= '#6D3C3C'
-        obj.lineWidth = 25
+        obj.lineWidth = 30
         obj.stroke()
 
         obj.beginPath()
         obj.moveTo (300, 650)
         obj.lineTo (300, 450)
         obj.strokeStyle= '#6D3C3C'
-        obj.lineWidth = 25
+        obj.lineWidth = 30
         obj.stroke()
 
         obj.beginPath()
         obj.moveTo (800, 650)
         obj.lineTo (800, 450)
         obj.strokeStyle= '#6D3C3C'
-        obj.lineWidth = 25
-        obj.stroke()
-
-        obj.beginPath()
-        obj.moveTo (900, 650)
-        obj.lineTo (900, 500)
-        obj.strokeStyle= '#6D3C3C'
-        obj.lineWidth = 25
+        obj.lineWidth = 30
         obj.stroke()
 
         obj.beginPath()
         obj.moveTo (1000, 650)
         obj.lineTo (1000 , 350)
         obj.strokeStyle= '#6D3C3C'
-        obj.lineWidth = 25
+        obj.lineWidth = 30
         obj.stroke()
 
 
@@ -179,7 +181,47 @@
          obj.fill()
 
         obj.beginPath()
-        obj.arc(300,450,100,0, Math.PI,true)
+        obj.arc(300,550,120,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(300,455,100,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(300,365,80,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(800,500,70,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(800,450,60,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(800,400,50,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(1000,400,100,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(1000,320,80,0, Math.PI,true)
+        obj.fillStyle = '#386739'
+        obj.fill()
+
+        obj.beginPath()
+        obj.arc(1000,250,50,0, Math.PI,true)
         obj.fillStyle = '#386739'
         obj.fill()
 
@@ -228,3 +270,13 @@
         obj.strokestyle = '#929594'
         obj.lineWidth = 5
         obj.stroke()
+
+        // E.T
+        obj.beginPath()
+        obj.moveTo (200, 200)
+        obj.lineTo (425, 400)
+        obj.strokeStyle = '#FF0000'
+        obj.lineWidth = 10
+    
+        obj.stroke()
+
