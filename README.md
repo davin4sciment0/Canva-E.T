@@ -27,3 +27,6 @@ As estrelas foram feitas com o mesmo código da luta para fazer só fazendo com 
 Para fazer a bicicleta foi usado o .arc e o lineTo e moveTo para, o .arc para fazer os pneus e as linhas para o formato da bicleta, definindo as suas posições e a espessura da linha.
 
 ![image](https://github.com/davin4sciment0/Canva-E.T/assets/127865701/7a3eb20a-ca58-4743-841d-639065a5e3c8)
+
+## E.T
+Para fazer o E.T foi usado o código de linha e de círculo, o de linha para fazer o corpo dele e seus braços, e o de círculo para a sua cabeça, colocado as posições dele definimos sua espessura e cor, sendo respectivo a cores do filmes, ou similares. 
