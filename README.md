@@ -30,3 +30,6 @@ Para fazer a bicicleta foi usado o .arc e o lineTo e moveTo para, o .arc para fa
 
 ## E.T
 Para fazer o E.T foi usado o código de linha e de círculo, o de linha para fazer o corpo dele e seus braços, e o de círculo para a sua cabeça, colocado as posições dele definimos sua espessura e cor, sendo respectivo a cores do filmes, ou similares. 
+
+![image](https://github.com/davin4sciment0/Canva-E.T/assets/127548240/0c29af14-1ae9-45dd-a38c-e519edf5dc41)
+
