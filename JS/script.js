@@ -226,8 +226,12 @@
         obj.fill()
 
         //Grama
-        obj.fillStyle = '#355F25'
-        obj.fillRect (10, 580, 1100, 250)
+        obj.beginPath()
+        obj.moveTo (0, 650)
+        obj.lineTo (1300, 650)
+        obj.strokeStyle= '#386739'
+        obj.lineWidth = 55
+        obj.stroke()
         
         //Bicicleta
         obj.beginPath()
@@ -273,10 +277,32 @@
 
         // E.T
         obj.beginPath()
-        obj.moveTo (200, 200)
-        obj.lineTo (425, 400)
-        obj.strokeStyle = '#FF0000'
-        obj.lineWidth = 10
-    
-        obj.stroke()
+        obj.moveTo (480, 180)
+        obj.lineTo (450, 300)
+        obj.lineTo(490,330)
+        obj.lineTo(540,340)
+        obj.lineTo(580, 330)
+        obj.lineTo(600,200)
+        obj.lineTo(570,200)
+        obj.lineTo(550,160)
+        obj.lineTo(500,160)
+        obj.lineTo (480, 180)
+        obj.fillStyle = '#DC143C'
+        obj.lineWidth = 2
+        obj.fill();
 
+        // Mãos e cabeça do E.T
+        obj.beginPath()
+        obj.arc(610,210,17,0, Math.PI*2)
+        obj.fillStyle = '#D8BFD8'
+        obj.fill()
+
+        obj.beginPath()
+        obj.moveTo (550, 160)
+        obj.lineTo (590, 150)
+        obj.lineTo (590, 180)
+        obj.lineTo (565, 190)
+        obj.lineTo (550, 160)
+        obj.fillStyle = '#D8BFD8'
+        obj.lineWidth = 2
+        obj.fill();
